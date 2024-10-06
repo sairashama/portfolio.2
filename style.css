@@ -1,0 +1,250 @@
+
+*{
+    margin: 0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    
+}
+.my-head{
+    background-color: #FFF8F3;
+    background-image: url('images/header_bg.png'),url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+.title-of-mary{
+    font-weight: 800;
+    font-size: 45px;
+} 
+.primery-color{
+    color: #FD6E0A;
+}
+.baba{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.baba2{
+     display: flex;
+    align-items: center;
+    list-style: none;
+}
+ul li{
+    margin-right: 50px;
+}
+li a{
+     text-decoration: none;
+    color: #474747 ;
+}
+.btn-primary{
+     border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 30px;
+
+}
+
+/* Hardi vai er kaj kam */
+
+.Mary-hardy{
+     display: flex;
+    align-items: center;
+    padding: 40px 30px 0px 200px; 
+}
+.welcome{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+.name{
+    margin: 5px 0px 20px 0px;
+    padding-top: 0px;
+    font-weight: 700;
+    font-size: 85px;
+}
+.d{
+    margin-left: 10px;
+}
+.fg{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+/* About Me Section  */
+
+.about-me{
+    height: 550px;
+    width: 1140px;
+    background-color: #FFF8F3;
+    margin: auto;
+    margin: 130px auto;
+    border-radius: 10px;
+    /* border: 1px solid green; */
+
+}
+.sub-about-me{
+    padding: 130px 150px;
+    /* border:1px solid red; */
+    margin: 130px 150px;
+    text-align: center;
+
+}
+.baba-of-four-son{
+    display: flex;
+    justify-content: space-around;
+}
+.autoTaJayaVuleJai{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+/* What I do */
+.what-section{
+    margin: 0px 200px 130px 200px;
+}
+.vitor-ante-chai{
+    text-align: center;
+    margin: 0px 100px 50px 100px;
+}
+
+.what-i-do{
+    display: flex;
+}
+.box{
+    /* border: 2px solid green; */
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin-right: 24px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, .06);
+}
+/* Resumi work */
+
+.resumi{
+    margin: 0px 200px 130px 200px;
+}
+.resumi-div{
+    display: flex;
+}
+.summery{
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.summary-ee{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.summary-headline{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.edu{
+    margin-right: 24px;
+}
+.makhane{
+     /* align-items: center; */
+     text-align: center;
+     /* border: 2px solid red; */
+     margin-top: 50px;
+     
+}
+.footer{
+    display: flex;
+    background-color: #FFF8F3;
+    /* height: 780px;
+    width: 100vw; */
+    padding: 130px 200px;
+    /* display: none; */
+}
+form input[type='text'],form input[type='email'],form textarea{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+input{
+    /* border: 1px solid red; */
+}
+.footer section{
+    width: 50%;
+}
+.md{
+    margin-right: 100px;
+}
+/* .mouse:hover{
+    background-color: teal;
+} */
+ .mouse:hover{
+    border: 2px solid teal;
+ }
+
+ @media only screen and (max-width: 592px){
+    /* .resumi{
+        background-color: #FD6E0A;
+    } */
+    .resumi-div{
+        flex-direction: column;
+    }
+    .summery{
+        margin-bottom: 30px;
+    }
+    .edu{
+        margin-bottom: 30px;
+    }
+    .footer{
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+  .md{
+    margin-top: 20px;
+  }
+  .footer section{
+    width: 100%;
+  }
+  .sub-about-me{
+    padding: 20px;
+    margin: 20px;
+  }
+  .about-me{
+    margin: 10px;
+    width: 576px;
+    /* height:450px ; */
+  }
+  .what-section{
+    margin: 10px;
+  }
+  .what-i-do{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .baba-of-four-son{
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .Mary-hardy{
+   flex-direction: column;
+   margin: 10px;
+  }
+  /* .baba{
+
+  }
+  .baba2
+  {} */
+  .vitor-ante-chai{
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+ }
