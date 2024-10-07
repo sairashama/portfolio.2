@@ -192,9 +192,10 @@ input{
  }
 
  @media only screen and (max-width: 592px){
-    /* .resumi{
-        background-color: #FD6E0A;
-    } */
+  .resumi{
+        /* background-color: #FD6E0A; */
+       margin:10px ;
+    } 
     .resumi-div{
         flex-direction: column;
     }
@@ -237,6 +238,7 @@ input{
   .Mary-hardy{
    flex-direction: column;
    margin: 10px;
+   padding: 20px;
   }
   /* .baba{
 
